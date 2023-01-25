@@ -1,0 +1,13 @@
+/* Estilo Global para aplicar no meu projeto todo. Aqui deu um zerada para estilizar por conteúdo*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+    -webkit-font-smoothing: antialiased;
+}

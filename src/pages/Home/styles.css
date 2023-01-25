@@ -1,0 +1,59 @@
+/* aplicação dos meus estilos da minha página inicial meu Container*/
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container header {
+    width: 50%;
+    margin: 84px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 7px;
+  }
+  
+  .container header div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container input {
+    width: 50%;
+    padding: 24px;
+  
+    background: #e6e6e6;
+    border-radius: 5px;
+    border: none;
+  
+    font-size: 16px;
+  }
+/* inserindo tamanho, cor, borda, tamanho fonte, e efeito de transição no meu botão*/
+.container button {
+    width: 50%;
+    padding: 24px;
+    font-weight: 700;
+
+    background: #ea4c89;
+    color: #ffffff;
+
+    border-radius: 5px;
+    margin: 12px 0 84px;
+    border: none;
+
+
+    cursor: pointer;
+    transition: filter 0.2s;
+    font-size: 16px;
+}
+
+.container button:hover {
+    filter: brightness(0.9);
+}
